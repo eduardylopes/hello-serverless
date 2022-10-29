@@ -1,10 +1,9 @@
-name: Deploy serverless app
+name: Deploy Lambda
 
 on:
   push:
     branches:
       - master
-      - develop
 
 jobs:
   deploy:
